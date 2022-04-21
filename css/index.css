@@ -113,10 +113,13 @@ main{
     border-bottom-right-radius: 10px;
     position: mixed;
     margin-top: -65px;
-    display: grid;
+    display: none;
     grid-template-columns: 1fr 70px;
     place-items: center;
     box-shadow: 1px 1px 3px 2px hsl(229, 34%, 51%);
+}
+.active{
+    display: grid;
 }
 .social-share{
     display: grid;
