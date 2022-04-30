@@ -1,0 +1,32 @@
+
+    main{
+        grid-template-rows: 285px 50px;
+    }
+    .article{
+        grid-template-columns: 40% 60%;
+        width: 650px;
+        height: 283px;
+    }
+    .article-image{
+        height: 100%;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0;
+    }
+    .active-share{
+        margin-left: 450px;
+        margin-top: -150px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .buble{
+        display: block;
+        margin-left: 5px;
+        margin-top:65px;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        background-color: hsl(229, 34%, 25%);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
